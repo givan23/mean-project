@@ -1,0 +1,42 @@
+.registration {
+  width: 450px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+
+  .form {
+    position: absolute;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    .registry {
+      display: flex;
+
+      .personal,
+      .contacts {
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+        gap: 16px;
+      }
+    }
+
+    .security {
+      margin-top: 16px;
+      display: flex;
+      gap: 16px;
+      padding: 8px;
+    }
+
+    .inputField {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

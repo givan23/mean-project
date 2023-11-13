@@ -1,0 +1,6 @@
+<nav class="header">
+  <ul *ngFor="let link of links">
+    <li [ngClass]="selected === link.id ? 'selected' : ''" (click)="onSelection(link.id)"><a
+      [routerLink]="link.path">{{link.name}}</a></li>
+  </ul>
+</nav>
