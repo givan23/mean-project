@@ -8,6 +8,7 @@ import {HeaderComponent} from './components/header/header.component';
 import {FooterComponent} from './components/footer/footer.component';
 import {RouterLink, RouterLinkActive, RouterOutlet} from "@angular/router";
 import {CoreModule} from "../modules/core/core.module";
+import { ForbiddenPageComponent } from './pages/forbidden-page/forbidden-page.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {CoreModule} from "../modules/core/core.module";
     ErrorPageComponent,
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ForbiddenPageComponent
   ],
   imports: [
     BrowserModule,
