@@ -9,6 +9,7 @@ import {FooterComponent} from './components/footer/footer.component';
 import {RouterLink, RouterLinkActive, RouterOutlet} from "@angular/router";
 import {CoreModule} from "../modules/core/core.module";
 import { ForbiddenPageComponent } from './pages/forbidden-page/forbidden-page.component';
+import {MaterialModule} from "../modules/material/material.module";
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ForbiddenPageComponent } from './pages/forbidden-page/forbidden-page.co
     RouterOutlet,
     RouterLink,
     RouterLinkActive,
-    CoreModule
+    CoreModule,
+    MaterialModule
   ],
   providers: [],
   exports: [],
